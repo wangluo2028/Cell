@@ -3,6 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\build\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=%PATH%;E:\cg\opengl\Cell\vendor\assimp\build\code\Debug</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\build\</LocalDebuggerWorkingDirectory>
@@ -14,6 +15,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\build\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=%PATH%;E:\cg\opengl\Cell\vendor\assimp\build\code\Debug</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\build\</LocalDebuggerWorkingDirectory>
